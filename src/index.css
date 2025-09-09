@@ -134,15 +134,22 @@ img{
 
 .contact-form{
   display: grid;
-  
-};
+}
 
-label{
+.contact-form label{
+  font-weight: bold;
+  font-size: 14px;
+  color: black !important;
+  margin-bottom: 5px;
+  text-align: left;
 }
 
 input{
   background-color: white;
   color: #1a1a1a;
+  border-radius: 8px;
+  width: 200px;
+  height: 25px;
 }
 
 button{
