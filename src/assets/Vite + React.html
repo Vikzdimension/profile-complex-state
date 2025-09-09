@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./Vite + React_files/client"></script>
+
+    
+    <link rel="stylesheet" href="./Vite + React_files/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+  <link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style><style type="text/css" data-vite-dev-id="C:/Users/Vivek/Desktop/Practice/React/profile-complex-state/src/index.css">:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #044065;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.content{
+  width: 275px;
+  height: 400px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  color: black;
+  border-radius: 7%;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.fa-star{
+  color: gold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+#edit-icon{
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* h3, h4, p {
+  margin: 3px 0;
+  color: black;
+} */
+
+
+.contact-form{
+  display: grid;
+  
+};
+
+label{
+}
+
+input{
+  background-color: white;
+  color: #1a1a1a;
+}</style><style type="text/css" data-vite-dev-id="C:/Users/Vivek/Desktop/Practice/React/profile-complex-state/src/App.css">#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+</style><style>.PScpROHtd3_0E9aOPeXk {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: -10px;
+  right: 10px;
+  background: #295;
+  color: #dfe;
+  padding: .5rem 1rem;
+  font-size: 11px;
+  line-height: 1.2;
+  border-radius: 1px;
+  transition: all .2s ease-out;
+  opacity: 0;
+  z-index: 999999;
+}
+
+.VtYsTUHuML9e3dvctBkf {
+  animation: TjxAkPtEzqtdwZ6Jh1Ca .25s ease-in-out forwards;
+}
+
+.hGBVIU0YhWIFzqEIB6fQ {
+  animation: APO9gl31mNR4TJuRMgBJ .25s ease-in-out forwards;
+}
+
+.m0XIgM2Yqud2ulDzCnQL {
+  margin-right: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.m0XIgM2Yqud2ulDzCnQL:hover {
+  font-weight: bold;
+}
+
+@keyframes TjxAkPtEzqtdwZ6Jh1Ca {
+  from {
+    top: -10px;
+    opacity: 0;
+  }
+
+  to {
+    top: 10px;
+    opacity: 1;
+  }
+}
+
+@keyframes APO9gl31mNR4TJuRMgBJ {
+  from {
+    top: 10px;
+    opacity: 1;
+  }
+
+  to {
+    top: 40px;
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9wb3B1cC9Qb3B1cC5tb2R1bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UseUNBQXlDO0VBQ3pDLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLFVBQVU7RUFDVixXQUFXO0VBQ1gsZ0JBQWdCO0VBQ2hCLFdBQVc7RUFDWCxtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsNEJBQTRCO0VBQzVCLFVBQVU7RUFDVixlQUFlO0FBQ2pCOztBQUVBO0VBQ0UseURBQStDO0FBQ2pEOztBQUVBO0VBQ0UseURBQStDO0FBQ2pEOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0U7SUFDRSxVQUFVO0lBQ1YsVUFBVTtFQUNaOztFQUVBO0lBQ0UsU0FBUztJQUNULFVBQVU7RUFDWjtBQUNGOztBQUVBO0VBQ0U7SUFDRSxTQUFTO0lBQ1QsVUFBVTtFQUNaOztFQUVBO0lBQ0UsU0FBUztJQUNULFVBQVU7RUFDWjtBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiLnBvcHVwIHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgdG9wOiAtMTBweDtcbiAgcmlnaHQ6IDEwcHg7XG4gIGJhY2tncm91bmQ6ICMyOTU7XG4gIGNvbG9yOiAjZGZlO1xuICBwYWRkaW5nOiAuNXJlbSAxcmVtO1xuICBmb250LXNpemU6IDExcHg7XG4gIGxpbmUtaGVpZ2h0OiAxLjI7XG4gIGJvcmRlci1yYWRpdXM6IDFweDtcbiAgdHJhbnNpdGlvbjogYWxsIC4ycyBlYXNlLW91dDtcbiAgb3BhY2l0eTogMDtcbiAgei1pbmRleDogOTk5OTk5O1xufVxuXG4uc2hvdyB7XG4gIGFuaW1hdGlvbjogc2xpZGUtZG93biAuMjVzIGVhc2UtaW4tb3V0IGZvcndhcmRzO1xufVxuXG4uZXhpdCB7XG4gIGFuaW1hdGlvbjogc2xpZGUtZmFkZSAuMjVzIGVhc2UtaW4tb3V0IGZvcndhcmRzO1xufVxuXG4uY2xvc2Uge1xuICBtYXJnaW4tcmlnaHQ6IDFyZW07XG4gIGNvbG9yOiAjZmZmO1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi5jbG9zZTpob3ZlciB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5Aa2V5ZnJhbWVzIHNsaWRlLWRvd24ge1xuICBmcm9tIHtcbiAgICB0b3A6IC0xMHB4O1xuICAgIG9wYWNpdHk6IDA7XG4gIH1cblxuICB0byB7XG4gICAgdG9wOiAxMHB4O1xuICAgIG9wYWNpdHk6IDE7XG4gIH1cbn1cblxuQGtleWZyYW1lcyBzbGlkZS1mYWRlIHtcbiAgZnJvbSB7XG4gICAgdG9wOiAxMHB4O1xuICAgIG9wYWNpdHk6IDE7XG4gIH1cblxuICB0byB7XG4gICAgdG9wOiA0MHB4O1xuICAgIG9wYWNpdHk6IDA7XG4gIH1cbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style></head>
+  <body>
+    <div id="root"><main class="content"><div class="profile"><div class="image-container"><img name="avatar" alt="User profile picture of John Doe" src="./Vite + React_files/profile.png"><input id="file-input" accept="image/*" type="file" style="display: none;"><i class="fa-solid fa-edit" type="file" id="edit-icon"></i></div><div class="details"><i class="fa-regular fa-star" id="favorite-icon"></i><form class="contact-form" action="http://localhost:5173/"><label for="firstName">First Name : </label><input id="firstName" type="text" value="Karanvir" name="firstName" fdprocessedid="wuhi8j"><label for="lastName">Last Name : </label><input id="lastName" type="text" value="Bhongale" name="lastName" fdprocessedid="yxp0m"><label for="phone">Phone : </label><input id="phone" type="tel" value="9745683214" name="phone" fdprocessedid="xqubdl"><label for="email">Email : </label><input id="email" type="email" value="karan.cool@gmail.com" name="email" fdprocessedid="pvtic"></form></div></div></main></div>
+    <script type="module" src="./Vite + React_files/main.jsx"></script>
+  
+
+<div></div><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
